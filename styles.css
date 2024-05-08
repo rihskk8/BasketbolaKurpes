@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.apavi {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.apavs {
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.apavs img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.apavs textarea {
+  width: calc(100% - 20px);
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.apavs .zvaigznes {
+  margin-top: 10px;
+}
+
+.apavs .zvaigznes input[type="radio"] {
+  display: none;
+}
+
+.apavs .zvaigznes label {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.apavs .zvaigznes label:hover,
+.apavs .zvaigznes label:hover~label,
+.apavs .zvaigznes input[type="radio"]:checked~label {
+  color: #ffcc00;
+}
